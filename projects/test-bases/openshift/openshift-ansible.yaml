@@ -23,7 +23,7 @@ items:
       dockerfile: |
         FROM openshift/origin-release:base
         COPY . /data/src/github.com/openshift/openshift-ansible
-        COPY release-ci /usr/bin
+        COPY release-ci /usr/bin/
       images:
       - from:
           kind: ImageStreamTag
