@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-base=$( dirname "${BASH_SOURCE[0]}")
+base="$( dirname "${BASH_SOURCE[0]}")/.."
 
 function annotate() {
 	local namespace="$1"
@@ -13,7 +13,7 @@ function annotate() {
 	if [[ -s "${conf}" ]]; then
 		echo "${conf}"
 		jq . <"${conf}"
-		oc annotate -n "${namespace}" "is/${name}" "release.openshift.io/config=$( cat "${conf}" )" --overwrite
+		oc --as system:admin annotate -n "${namespace}" "is/${name}" "release.openshift.io/config=$( cat "${conf}" )" --overwrite
 	fi
 }
 
