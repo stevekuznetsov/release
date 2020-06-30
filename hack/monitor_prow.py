@@ -97,6 +97,8 @@ def highlight(log_dir, dc):
                 cmd += ['--container', 'deck']
             if "component=boskos" in dc and not "-" in dc:
                 cmd += ['--container', 'boskos']
+            if "release-controller" in dc and dc.endswith("-priv"):
+                cmd += ['--container', 'controller']
             debug("deployment/{}: pod/{}: getting logs".format(dc, pod))
             try:
                 for l in run_oc(cmd).splitlines():
