@@ -1,0 +1,180 @@
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci config-updater
+    name: sa.config-updater.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci deck
+    name: sa.deck.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci sinker
+    name: sa.sinker.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci hook
+    name: sa.hook.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci crier
+    name: sa.crier.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci prow-controller-manager
+    name: sa.prow-controller-manager.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci pj-rehearse
+    name: sa.pj-rehearse.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh app.ci release-bot
+    name: sa.release-bot.app.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci config-updater
+    name: sa.config-updater.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci deck
+    name: sa.deck.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci sinker
+    name: sa.sinker.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci hook
+    name: sa.hook.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci crier
+    name: sa.crier.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci prow-controller-manager
+    name: sa.prow-controller-manager.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci dptp-controller-manager
+    name: sa.dptp-controller-manager.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh api.ci ci-operator
+    name: sa.ci-operator.api.ci.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 config-updater
+    name: sa.config-updater.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 deck
+    name: sa.deck.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 sinker
+    name: sa.sinker.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 hook
+    name: sa.hook.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 crier
+    name: sa.crier.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 prow-controller-manager
+    name: sa.prow-controller-manager.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 dptp-controller-manager
+    name: sa.dptp-controller-manager.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build01 ci-operator
+    name: sa.ci-operator.build01.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 config-updater
+    name: sa.config-updater.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 deck
+    name: sa.deck.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 sinker
+    name: sa.sinker.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 hook
+    name: sa.hook.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 crier
+    name: sa.crier.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 prow-controller-manager
+    name: sa.prow-controller-manager.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 dptp-controller-manager
+    name: sa.dptp-controller-manager.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh build02 ci-operator
+    name: sa.ci-operator.build02.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere config-updater
+    name: sa.config-updater.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere deck
+    name: sa.deck.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere sinker
+    name: sa.sinker.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere hook
+    name: sa.hook.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere crier
+    name: sa.crier.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere prow-controller-manager
+    name: sa.prow-controller-manager.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere dptp-controller-manager
+    name: sa.dptp-controller-manager.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/service_account_generator.sh vsphere ci-operator
+    name: sa.ci-operator.vsphere.config
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/registry_auth_generator.sh app.ci
+    name: build01_app.ci_reg_auth_value.txt
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/registry_auth_generator.sh api.ci
+    name: build01_api.ci_reg_auth_value.txt
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/registry_auth_generator.sh build01
+    name: build01_build01_reg_auth_value.txt
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/registry_auth_generator.sh build02
+    name: build01_build02_reg_auth_value.txt
+  item_name: build_farm
+- attachment:
+    cmd: /tmp/registry_auth_generator.sh vsphere
+    name: build01_vsphere_reg_auth_value.txt
+  item_name: build_farm
